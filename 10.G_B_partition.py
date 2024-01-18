@@ -2,6 +2,14 @@ import sys
 from math import sqrt
 
 
+def makePrimeNumberList(num :int) ->list :
+    numSet = set(range(2,num+1))
+    for i in range(2,num+1):
+        if i in numSet:
+            numSet -= set(range(2*i,num+1,i))
+    return numSet
+
+
 def isEven(n: int) -> bool:
     if (n % 2 == 1):
         return False
@@ -22,7 +30,6 @@ def isPrime(n: int) -> bool:
 def G_B_partition(n: int) -> None :
     if not (4 <= n <= 10000):
         return
-    
     
     for i in range(n // 2, n):
         if (isPrime(n - i) and isPrime(i)):
