@@ -1,23 +1,38 @@
 import sys
-from collections import deque
 
-def binaryCompression(n: int, sec_array: list[list], comp_str: str) -> str:
-    comp_str += "("
+input= sys.stdin.readline
 
-    
-    binaryCompression(sec_array, comp_str)
+# N = 8
+# lst = ['11110000',
+#         '11110000',
+#         '00011100',
+#         '00011100',
+#         '11110000',
+#         '11110000',
+#         '11110011',
+#         '11110011']
 
-    comp_str += ")"
-    return
+N = int(input())
+lst = []
 
+for i in range(N):
+    lst.append(input().replace('\n',''))
 
-if __name__ == "__main__":
-    n = int(sys.stdin.readline())
-    sec_array = []
+lst = [list(map(int, char)) for char in lst]
 
-    for _ in range(n):
-        fir_array = list(map(int, sys.stdin.readline().split()))
-        sec_array.append(fir_array)
+def devide(lst) :
+    result = sum(sum(row) for row in lst)
+    if result == 0 :
+        print(0,end='')
+    elif result == len(lst)*len(lst) :
+        print(1,end='')
+    else :
+        mid = len(lst) //2 
+        print('(',end='')
+        devide([row[:mid] for row in lst[:mid]])
+        devide([row[mid:] for row in lst[:mid]])
+        devide([row[:mid] for row in lst[mid:]])
+        devide([row[mid:] for row in lst[mid:]])
+        print(')',end='')
 
-    print(binaryCompression(n + 1, sec_array, ""))
-    
+devide(lst)

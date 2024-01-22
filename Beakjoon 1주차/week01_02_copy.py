@@ -1,25 +1,26 @@
 import sys
+input = sys.stdin.readline
+N,S = map(int,input().split())
+lst = list(map(int,input().split()))
+# N = 5
+# S = 0
+# lst = [-7, -3, -2, 5,99,99]
+cnt = 0
 
-ans = []
-
-def getSubsequence(s: int, nlist: list[int], start: int = 0) -> int:
-    result = 0
-
-    if sum(ans) == s and ans:
-        return 1
-
+def make(index, current_sum):
+    global cnt
+    # 선택하지 않은 경우도 고려하기 때문에, index가 N일 경우만 생각해도 
+    # 모든 경우의 수가 나옴 
+    if index == N:
+        if current_sum == S:
+            cnt += 1
     else:
-        for i in range(start, len(nlist)):
-            ans.append(nlist[i])
-            getSubsequence(s, nlist, i + 1)
-            ans.pop()
+        # 현재 원소를 선택하지 않는 경우
+        make(index + 1, current_sum)
 
-    return result
+        # 현재 원소를 선택하는 경우
+        make(index + 1, current_sum + lst[index])
 
-
-if __name__ == "__main__":
-    n, s = list(map(int, sys.stdin.readline().split()))
-    nlist = list(map(int, sys.stdin.readline().split()))
-
-    if len(nlist) == n:
-        print(getSubsequence(s, sorted(nlist)))
+# 부분수열을 생성하고 make 함수 호출
+make(0, 0)
+print(cnt-1 if S == 0 else cnt)

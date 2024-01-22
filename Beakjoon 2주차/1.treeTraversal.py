@@ -62,11 +62,6 @@ def postorderTrav(self: Node) -> None:
     postorderTrav(self.left)
     postorderTrav(self.right)
     print(self.data, end="")
-        
-
-class BinarySearchTree:
-    def __init__(self):
-        self.root = None
 
 
 if __name__ == "__main__":
