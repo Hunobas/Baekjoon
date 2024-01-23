@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(10**6)
 
 class Graph:
     def __init__(self, num_vertices: int):
@@ -9,35 +10,34 @@ class Graph:
         self.path[v].append(u)
 
 
-def dfs_isBinaryGraph(g: Graph, start: int, depth: int, visited: dict = None) -> bool:
-    if visited is None:
-        visited = {}
-
+def dfs_isBinaryGraph(g: Graph, start: int, depth: int, visited: dict) -> bool:
     result = True
 
+    # 짝수번 노드에 파란색 칠 (1)
     if depth % 2 == 0:
         visited[start] = 1
+    # 홀수번 노드에 빨간색 칠 (-1)
     else:
         visited[start] = -1
 
     for next in g.path[start]:
         if next not in visited:
-            pre_result = result and dfs_isBinaryGraph(g, next, depth+1, visited)
+            if not dfs_isBinaryGraph(g, next, depth+1, visited):
+                return False
         else:
             if depth % 2 == 0 and visited[next] == 1:
                 return False
             elif depth % 2 == 1 and visited[next] == -1:
                 return False
-            else:
-                return True
     
-    return pre_result and result
+    return result
             
 
 if __name__ == "__main__":
     K = int(sys.stdin.readline())
 
     for _ in range(K):
+        visited = {}
         V, E = list(map(int, sys.stdin.readline().split()))
         g = Graph(V)
 
@@ -45,7 +45,16 @@ if __name__ == "__main__":
             A, B = list(map(int, sys.stdin.readline().split()))
             g.add_edge(A, B)
 
-        if dfs_isBinaryGraph(g, 1, 0):
+        result = True
+
+        for node in g.path:
+            if node in visited:
+                continue
+            else:
+                if not dfs_isBinaryGraph(g, node, 0, visited):
+                    result = False
+        
+        if result:
             print("YES")
         else:
             print("NO")
