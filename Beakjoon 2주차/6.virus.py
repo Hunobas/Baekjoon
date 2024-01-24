@@ -9,7 +9,7 @@ class Graph:
         self.path[v].append(u)
 
     
-def dfs(g:Graph, start: int, visited: list[bool] = None) -> set:
+def dfs(g:Graph, start: int, visited: set = None) -> set:
     if start not in g.path:
         return None
     if visited is None:

@@ -57,7 +57,7 @@ def bfs_mapEscape(sPos: tuple, wQue: deque, map: list, R: int, C: int) -> None:
                     elif map[sNowX][sNowY] == '.':
                         map[sNowX][sNowY] = 'S'
                         # 이번 턴에 sQue에 하나도 안 담긴다면 게임 오버
-                        sQue.appendleft((sNowX, sNowY))
+                        sQue.append((sNowX, sNowY))
 
     # 게임 오버
     print("KAKTUS")
