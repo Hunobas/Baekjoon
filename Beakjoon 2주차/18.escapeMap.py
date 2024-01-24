@@ -6,11 +6,11 @@ def floodSpread(wQue: deque, map: list[str], R: int, C: int) -> bool:
     # 홍수 한 턴만 진행하기 위해 다음 턴 홍수 좌표 저장용 list 생성
     wTemps = []
 
-    # 홍수 bfs
+    # 홍수 한 턴을 위한 bfs
     while wQue:
         wEach = wQue.popleft()
         
-        # 홍수 진행 (상/하/우/좌)
+        # 홍수 진행 
         for wEachX, wEachY in ((wEach[0] + 1, wEach[1]), (wEach[0] - 1, wEach[1]), (wEach[0], wEach[1] + 1), (wEach[0], wEach[1] - 1)):
             if 0 <= wEachX < R and 0 <= wEachY < C:
                 if map[wEachX][wEachY] == '.' or map[wEachX][wEachY] == 'S':
