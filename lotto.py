@@ -1,16 +1,21 @@
 import sys
-from itertools import combinations
+
+
+def PrintAllLottoNumsRecursive(arr: list[int], start: int, current: list[int], depth):
+    if depth == 6:
+        print(*current)
+        return
+
+    for i in range(start, len(arr)):
+        current.append(arr[i])
+        PrintAllLottoNumsRecursive(arr, i + 1, current, depth + 1)
+        current.pop()
+
 
 if __name__ == "__main__":
     input = sys.stdin.readline
     while (InputList := list(map(int, input().split()))) != [0]:
         k = InputList[0]
-        S = set(InputList[1:])
-        subsets = []
-
-        for comb in combinations(S, k - 6):
-            subsets.append(S - set(comb))
-        for subset in subsets[::-1]:
-            print(*subset)
-
+        S = InputList[1:]
+        PrintAllLottoNumsRecursive(S, 0, [], 0)
         print()
