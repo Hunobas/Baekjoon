@@ -1,9 +1,11 @@
 import sys
 
-def CountNumbers(N, x):
-    return sum(min(x // i, N) for i in range(1, N+1))
 
-def FindBk(N, k):
+def CountNumbers(N: int, x: int) -> int:
+    return sum(min(x // i, N) for i in range(1, N + 1))
+
+
+def FindBk(N: int, k: int) -> int:
     left, right = 1, k
 
     while left <= right:
@@ -14,6 +16,7 @@ def FindBk(N, k):
             right = mid - 1
 
     return left
+
 
 N = int(sys.stdin.readline())
 k = int(sys.stdin.readline())
