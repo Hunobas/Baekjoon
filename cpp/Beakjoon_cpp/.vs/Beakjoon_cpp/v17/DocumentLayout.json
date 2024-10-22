@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Huno\\Baekjoon\\cpp\\Beakjoon_cpp\\",
+  "WorkspaceRootPath": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14758068-A046-4E20-8F50-B4C6661E8D1B}|ZigZagSequence\\ZigZagSequence.vcxproj|D:\\Huno\\Baekjoon\\cpp\\Beakjoon_cpp\\ZigZagSequence\\ZigZagSequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1345D0AA-2017-4183-B3D8-996BB4208FA7}|Gerrymandering\\Gerrymandering.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\Gerrymandering\\Gerrymandering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1345D0AA-2017-4183-B3D8-996BB4208FA7}|Gerrymandering\\Gerrymandering.vcxproj|solutionrelative:Gerrymandering\\Gerrymandering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14758068-A046-4E20-8F50-B4C6661E8D1B}|ZigZagSequence\\ZigZagSequence.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\ZigZagSequence\\ZigZagSequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{14758068-A046-4E20-8F50-B4C6661E8D1B}|ZigZagSequence\\ZigZagSequence.vcxproj|solutionrelative:ZigZagSequence\\ZigZagSequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Gerrymandering.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\Gerrymandering\\Gerrymandering.cpp",
+              "RelativeDocumentMoniker": "Gerrymandering\\Gerrymandering.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\Gerrymandering\\Gerrymandering.cpp",
+              "RelativeToolTip": "Gerrymandering\\Gerrymandering.cpp",
+              "ViewState": "AgIAALcAAAAAAAAAAADwv8EAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T11:47:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ZigZagSequence.cpp",
-              "DocumentMoniker": "D:\\Huno\\Baekjoon\\cpp\\Beakjoon_cpp\\ZigZagSequence\\ZigZagSequence.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\ZigZagSequence\\ZigZagSequence.cpp",
               "RelativeDocumentMoniker": "ZigZagSequence\\ZigZagSequence.cpp",
-              "ToolTip": "D:\\Huno\\Baekjoon\\cpp\\Beakjoon_cpp\\ZigZagSequence\\ZigZagSequence.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\ZigZagSequence\\ZigZagSequence.cpp",
               "RelativeToolTip": "ZigZagSequence\\ZigZagSequence.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-21T08:39:03.707Z",
               "EditorCaption": ""

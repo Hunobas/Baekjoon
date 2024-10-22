@@ -1,0 +1,9 @@
+﻿  Gerrymandering.cpp
+C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\Gerrymandering\Gerrymandering.cpp(33,9): warning C4018: '>': signed/unsigned mismatch
+C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\Gerrymandering\Gerrymandering.cpp(33,23): warning C4018: '>': signed/unsigned mismatch
+C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\Gerrymandering\Gerrymandering.cpp(139,20): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\Gerrymandering\Gerrymandering.cpp(149,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\Gerrymandering\Gerrymandering.cpp(172,28): warning C4018: '<=': signed/unsigned mismatch
+  Gerrymandering.vcxproj -> C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\x64\Debug\Gerrymandering.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
