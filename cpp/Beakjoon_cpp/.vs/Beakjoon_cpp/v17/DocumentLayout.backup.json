@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD2AC975-7979-4045-8C82-55678DEED0FB}|LegoBlocks\\LegoBlocks.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\LegoBlocks\\LegoBlocks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD2AC975-7979-4045-8C82-55678DEED0FB}|LegoBlocks\\LegoBlocks.vcxproj|solutionrelative:LegoBlocks\\LegoBlocks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546AB70F-096E-4A09-912D-0FE156F10133}|NewYearChaos\\NewYearChaos.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\NewYearChaos\\NewYearChaos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546AB70F-096E-4A09-912D-0FE156F10133}|NewYearChaos\\NewYearChaos.vcxproj|solutionrelative:NewYearChaos\\NewYearChaos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E153A239-3B6E-4D36-8AD4-441D982907D1}|TruckTour\\TruckTour.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\TruckTour\\Trucktour.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E153A239-3B6E-4D36-8AD4-441D982907D1}|TruckTour\\TruckTour.vcxproj|solutionrelative:TruckTour\\Trucktour.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41625E8-BDC6-4902-9D53-8EC197705220}|TimeConversion\\TimeConversion.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\TimeConversion\\TimeConversion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F41625E8-BDC6-4902-9D53-8EC197705220}|TimeConversion\\TimeConversion.vcxproj|solutionrelative:TimeConversion\\TimeConversion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E7498D-0149-4361-A83A-A66198EC6DE8}|NumCards\\NumCards.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\NumCards\\NumCards.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{77E7498D-0149-4361-A83A-A66198EC6DE8}|NumCards\\NumCards.vcxproj|solutionrelative:NumCards\\NumCards.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83B5253-D03D-4151-84E3-948957EDFA52}|RecursiveDigitSum\\RecursiveDigitSum.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\RecursiveDigitSum\\RecursiveDigitSum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E83B5253-D03D-4151-84E3-948957EDFA52}|RecursiveDigitSum\\RecursiveDigitSum.vcxproj|solutionrelative:RecursiveDigitSum\\RecursiveDigitSum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83714F7C-46C7-4500-B16E-817181816FCB}|LonelyIntefer\\LonelyIntefer.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\LonelyIntefer\\LonelyInteger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83714F7C-46C7-4500-B16E-817181816FCB}|LonelyIntefer\\LonelyIntefer.vcxproj|solutionrelative:LonelyIntefer\\LonelyInteger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19946811-DA36-4B19-8F0B-E6BBE315E199}|GridChallenge\\GridChallenge.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\GridChallenge\\GridChallenge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19946811-DA36-4B19-8F0B-E6BBE315E199}|GridChallenge\\GridChallenge.vcxproj|solutionrelative:GridChallenge\\GridChallenge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1345D0AA-2017-4183-B3D8-996BB4208FA7}|Gerrymandering\\Gerrymandering.vcxproj|C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\Gerrymandering\\Gerrymandering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1345D0AA-2017-4183-B3D8-996BB4208FA7}|Gerrymandering\\Gerrymandering.vcxproj|solutionrelative:Gerrymandering\\Gerrymandering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -23,19 +55,122 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LegoBlocks.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\LegoBlocks\\LegoBlocks.cpp",
+              "RelativeDocumentMoniker": "LegoBlocks\\LegoBlocks.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\LegoBlocks\\LegoBlocks.cpp",
+              "RelativeToolTip": "LegoBlocks\\LegoBlocks.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAtwDcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T14:58:33.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TimeConversion.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\TimeConversion\\TimeConversion.cpp",
+              "RelativeDocumentMoniker": "TimeConversion\\TimeConversion.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\TimeConversion\\TimeConversion.cpp",
+              "RelativeToolTip": "TimeConversion\\TimeConversion.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T12:10:26.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Trucktour.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\TruckTour\\Trucktour.cpp",
+              "RelativeDocumentMoniker": "TruckTour\\Trucktour.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\TruckTour\\Trucktour.cpp",
+              "RelativeToolTip": "TruckTour\\Trucktour.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T14:45:00.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewYearChaos.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\NewYearChaos\\NewYearChaos.cpp",
+              "RelativeDocumentMoniker": "NewYearChaos\\NewYearChaos.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\NewYearChaos\\NewYearChaos.cpp",
+              "RelativeToolTip": "NewYearChaos\\NewYearChaos.cpp",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAswHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T13:16:45.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NumCards.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\NumCards\\NumCards.cpp",
+              "RelativeDocumentMoniker": "NumCards\\NumCards.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\NumCards\\NumCards.cpp",
+              "RelativeToolTip": "NumCards\\NumCards.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T12:10:26.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecursiveDigitSum.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\RecursiveDigitSum\\RecursiveDigitSum.cpp",
+              "RelativeDocumentMoniker": "RecursiveDigitSum\\RecursiveDigitSum.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\RecursiveDigitSum\\RecursiveDigitSum.cpp",
+              "RelativeToolTip": "RecursiveDigitSum\\RecursiveDigitSum.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T12:47:25.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LonelyInteger.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\LonelyIntefer\\LonelyInteger.cpp",
+              "RelativeDocumentMoniker": "LonelyIntefer\\LonelyInteger.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\LonelyIntefer\\LonelyInteger.cpp",
+              "RelativeToolTip": "LonelyIntefer\\LonelyInteger.cpp",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T12:09:49.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GridChallenge.cpp",
+              "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\GridChallenge\\GridChallenge.cpp",
+              "RelativeDocumentMoniker": "GridChallenge\\GridChallenge.cpp",
+              "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\GridChallenge\\GridChallenge.cpp",
+              "RelativeToolTip": "GridChallenge\\GridChallenge.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T12:09:39.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Gerrymandering.cpp",
               "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\Gerrymandering\\Gerrymandering.cpp",
               "RelativeDocumentMoniker": "Gerrymandering\\Gerrymandering.cpp",
               "ToolTip": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\Gerrymandering\\Gerrymandering.cpp",
               "RelativeToolTip": "Gerrymandering\\Gerrymandering.cpp",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAG0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAADwv8cAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-21T11:47:55.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ZigZagSequence.cpp",
               "DocumentMoniker": "C:\\Users\\po127\\Beakjoon\\cpp\\Beakjoon_cpp\\ZigZagSequence\\ZigZagSequence.cpp",
               "RelativeDocumentMoniker": "ZigZagSequence\\ZigZagSequence.cpp",

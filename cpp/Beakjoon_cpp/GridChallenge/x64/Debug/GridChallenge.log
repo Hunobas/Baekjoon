@@ -1,0 +1,5 @@
+﻿  GridChallenge.cpp
+C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\GridChallenge\GridChallenge.cpp(22,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  GridChallenge.vcxproj -> C:\Users\po127\Beakjoon\cpp\Beakjoon_cpp\x64\Debug\GridChallenge.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
